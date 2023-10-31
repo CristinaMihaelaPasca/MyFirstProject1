@@ -52,11 +52,14 @@ public class Operators {
 
 
         System.out.println(10 * 6);
+        double result = 10* 6;
+        System.out.println(result);
         System.out.println(10 / 5);
         int x = 10;
         System.out.println(++x);
         System.out.println(--x);
         x = x + 5;
+        x+=5; // sa adaug 5 la valoarea lui x
         System.out.println(x);
         int variabila1 = 8;
         int variabila2 = 9;
@@ -91,12 +94,18 @@ public class Operators {
         var1 = ++var1;
         var1 = ++var1;
         System.out.println(var1);
+        for (int i=0;i<3;i++){
+            var1++;
+        }
         System.out.println("exercitiul 3");
         var2 = --var2;
         var2 = --var2;
         var2 = --var2;
         var2 = --var2;
         System.out.println(var2);
+        for (int i=0;i<2;i++){
+            var2--;
+        }
         System.out.println("exercitiul 4");
         boolean cond1 = true;
         boolean cond2 = false;
