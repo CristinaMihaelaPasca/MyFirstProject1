@@ -17,7 +17,7 @@ else if (time<24){
     System.out.println("Good evening");
 }
 else System.out.println("only 24 hours in a day!!!");
-int day = 15;
+int day = 1;
 switch(day){
     case 1:
         System.out.println("Monday"); break;

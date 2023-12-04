@@ -13,13 +13,16 @@ public class Tema {
         for (int i = 0; i <= 100; i += 2) {
             System.out.println(i);
         }
-        System.out.println("Exercitiul 4");
+        System.out.println("Exercitiul 4 - varianta1");
         String[] fructe = {"mar", "capsune", "pere", "banane"};
         for (String fruct : fructe) {
             System.out.println("Imi place sa mananc " + fruct);
         }
 
-
+        System.out.println("varianta2-exercitiul 4");
+        for (int i=0; i<fructe.length;i++){
+            System.out.println("Imi place sa mananc " +fructe[i]);
+        }
         System.out.println("Exercitiul 5");
         int luna = 10;
         switch (luna) {
@@ -113,7 +116,7 @@ public class Tema {
         }
 
         System.out.println("Exercitiul 5 optional");
-        char letter = 'a';
+        char letter = 'o';
         switch (letter){
             case 'a' :
             case 'e' :
@@ -123,8 +126,13 @@ public class Tema {
                 System.out.println(letter + " este vocala");
                 break;
             default:
-                System.out.println(letter + "este consoana");
+                System.out.println(letter + " este consoana");
         }
+        System.out.println("Exercitiul 5 - varianta 2");
+        char letter2 = 'i';
+        if (letter2 =='a' || letter2 =='e' || letter2 =='i' || letter2 =='o' || letter2== 'u')
+            System.out.println(letter2 + " este vocala");
+        else System.out.println(letter2 + " este consoana");
     }
 }
 
